@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.mapper.UserMapper">
+
+	<select id="idCheck" parameterType="String" resultType="int">
+		select count(*)
+		from users
+		where id = #{id}
+	</select>
+
+	<insert id="registerUser" parameterType="UserDto">
+		insert into users (id, pw, name, email, campus)
+		values (#{id}, #{pw}, #{name}, #{email}, #{campus})
+	</insert>
+
+	<select id="login" parameterType="UserDto" resultType="UserDto">
+		select id, pw, name, email, campus
+		from users
+		where id = #{id} and pw = #{pw}
+	</select>
+	
+	<select id="getUser" parameterType="String" resultType="Userdto">
+		select id, pw, name, email, campus
+		from users
+		where id = #{id}
+	</select>
+	
+	<update id="updateUser" parameterType="UserDto">
+		update users
+		set pw = #{pw}, name = #{name}, email = #{email}, campus= #{campus}
+		where id = #{id}
+	</update>
+	
+	<delete id="deleteUser" parameterType="String">
+		delete from users
+		where id = #{id}
+	</delete>
+	
+	<select id="findPw" parameterType="UserDto" resultType="String">
+		select pw
+		from users
+		where id=#{id} and name=#{name} and email=#{email}
+	</select>
+	
+</mapper>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.vue.mapper.BoardMapper">
+
+	<!-- 게시글 전체 조회 -->
+	<select id="selectBoard" resultType="board">
+		select articleno, userid,
+		title, content, regtime, category
+		from board
+		order by articleno desc
+	</select>
+
+	<!-- 게시글 상세 조회 -->
+	<select id="selectBoardByNo" resultType="board">
+		select articleno, title,
+		userid, content, regtime, category
+		from board
+		where articleno = #{articleno}
+	</select>
+
+	<!-- 게시글 등록 -->
+	<insert id="insertBoard" parameterType="board">
+		insert into board(
+		title, userid, content, category
+		) values (
+		#{title}, #{userid}, #{content}, #{category}
+		)
+	</insert>
+	<!-- 카테고리 가져오기 -->
+	<select id="getCategory" parameterType="String"
+		resultType="board">
+		select articleno, userid, title, content, regtime, category
+		from board
+		where category = #{category}
+	</select>
+	<!-- 게시글 수정 -->
+	<update id="updateBoard" parameterType="board">
+		update board
+		set title = #{title},
+		userid = #{userid},
+		content = #{content},
+		category = #{category}
+		where articleno = #{articleno}
+	</update>
+
+	<!-- 게시글 삭제 -->
+	<delete id="deleteBoard" parameterType="int">
+		delete
+		from board
+		where articleno = #{articleno}
+	</delete>
+	
+	<!-- 카테고리별 게시글 검색 -->
+	<select id="searchBoard" parameterType="Map" resultType="board">
+		select articleno, userid,
+		title, content, regtime, category
+		from board
+		where category = #{category} 
+		and (title like CONCAT('%', #{searchKeyword}, '%')
+		or content like CONCAT('%', #{searchKeyword}, '%')
+		or userid like CONCAT('%', #{searchKeyword}, '%'))
+		order by articleno desc
+	</select>
+	
+	<!-- 전체 게시글 검색 -->
+	<select id="searchBoardAll" parameterType="String" resultType="board">
+		select articleno, userid,
+		title, content, regtime, category
+		from board
+		where title like CONCAT('%', #{searchKeyword}, '%')
+		or content like CONCAT('%', #{searchKeyword}, '%')
+		or userid like CONCAT('%', #{searchKeyword}, '%')
+		order by articleno desc
+	</select>
+
+</mapper>
+
