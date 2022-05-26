@@ -8,9 +8,9 @@ ssafy 7기 1학기 파이널 프로젝트 HAPPYHOUSE
 ## 개발 배경
 SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 소통할 수 있는 서비스 제공 
 
-## 개발환경
+## 개발 환경
 ![개발배경](https://user-images.githubusercontent.com/65855978/170502431-c1ee4708-01d1-4190-8e50-935a740aaae1.png)
-## 시스템구조
+## 시스템 구조
 ![시스템구조](https://user-images.githubusercontent.com/65855978/170502015-0c4c82fa-1645-4468-b313-62731fcca021.png)
 
 ## API
@@ -27,10 +27,9 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 [**OBSAY**]
 - 대중교통 정보
 
-## 시스템구조
 
 ## 팀원 및 역할분담
-|[]()|[lye2i](https://github.com/lye2i)|
+|[chasonghui](https://github.com/chasonghui)|[lye2i](https://github.com/lye2i)|
 ![개인파트](https://user-images.githubusercontent.com/65855978/170497377-c4a6d5d6-31c1-49e6-94ac-3964d8ad70fa.png)
 
 
@@ -57,8 +56,6 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 - **게시판**
     - 전체/자유/방 구하기/룸메이트 구하기로 카테고리를 나누어 게시판 글 관리
     - 게시글 댓글 기능(비밀댓글)
-
-# 🏡Screen 구성
 
 
 
