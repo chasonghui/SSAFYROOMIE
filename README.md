@@ -41,12 +41,12 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 - 대중교통 정보
 
 ## 팀원 및 역할분담
-|[@rlagksql219](https://github.com/rlagksql219)|[lye2i](https://github.com/lye2i)|
+|[]()|[lye2i](https://github.com/lye2i)|
 ![개인파트](https://user-images.githubusercontent.com/65855978/170497377-c4a6d5d6-31c1-49e6-94ac-3964d8ad70fa.png)
 
 
-# 🛍️프론트엔드 기능 구현 사항
->  ✨[demo video](https://youtu.be/QqWv3s2lpOw)<br/>
+# YouTube
+>  ✨[demo video](https://www.youtube.com/watch?v=BEAs4nZEI5M)<br/>
 
 ## 주요 기능
 - **백엔드 연결**
