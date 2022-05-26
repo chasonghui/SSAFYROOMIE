@@ -39,7 +39,7 @@ public class CommentController {
 	public ResponseEntity<List<Comment>> commentList(@PathVariable int ano) throws Exception {
 		logger.debug("retrieveComment - 호출");
 		List<Comment> comments = commentService.commentList(ano);
-		logger.debug("comments",comments.get(0).toString());
+		//logger.debug("comments",comments.get(0).toString());
 		return new ResponseEntity<List<Comment>>(comments, HttpStatus.OK);
 	}
 	
