@@ -24,12 +24,15 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 [**행정표준코드관리시스템**]
 - 법정동 코드
 
-[**OBSAY**]
+[**카카오 뉴스**]
+- 카카오 뉴스 가져오기
+
+[**ODSAY**]
 - 대중교통 정보
 
 
 ## 팀원 및 역할분담
-**[chasonghui](https://github.com/chasonghui)** **[lye2i](https://github.com/lye2i)**
+✨ **[lye2i](https://github.com/lye2i)**  **[chasonghui](https://github.com/chasonghui)** ✨
 ![개인파트](https://user-images.githubusercontent.com/65855978/170497377-c4a6d5d6-31c1-49e6-94ac-3964d8ad70fa.png)
 </br>
 
@@ -58,9 +61,15 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
     - 게시글 댓글 기능(비밀댓글)
 
 
-
 # 🏡결과 화면
-
+- **집찾기**   
+![동검색](https://user-images.githubusercontent.com/65855978/170507754-82a7a085-982b-4d7b-92a8-f639a8cd7c69.gif)   
+   
+- **관심목록**   
+![관심목록](https://user-images.githubusercontent.com/65855978/170507848-73942623-1120-4292-bbe7-0e91287fe52c.gif)   
+   
+- **게시판**   
+![게시판](https://user-images.githubusercontent.com/65855978/170507942-ccab895d-777b-4b72-9c24-aa2ce9fa23f2.gif)   
 
 # YouTube
 >  ✨[demo video](https://www.youtube.com/watch?v=BEAs4nZEI5M)<br/>
