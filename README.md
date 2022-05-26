@@ -1,7 +1,5 @@
-# SSAFY ROOMIE
+# 🏡SSAFY ROOMIE
 ssafy 7기 1학기 파이널 프로젝트 HAPPYHOUSE
-
-# 🏡프로젝트 개요 
 > 부동산 매물 정보와 뉴스를 확인하고 싸피인들을 위한 관심목록 관리 및 게시판 </br>
 
 </br>
@@ -28,9 +26,6 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 |[]()|[lye2i](https://github.com/lye2i)|
 ![개인파트](https://user-images.githubusercontent.com/65855978/170497377-c4a6d5d6-31c1-49e6-94ac-3964d8ad70fa.png)
 
-
-# YouTube
->  ✨[demo video](https://www.youtube.com/watch?v=BEAs4nZEI5M)<br/>
 
 ## 🏡주요 기능
 - **홈**
@@ -64,3 +59,5 @@ SSAFY 학생들에게 부동산과 관련된 다양한 기능을 제공하고 �
 # 🏡결과 화면
 
 
+# YouTube
+>  ✨[demo video](https://www.youtube.com/watch?v=BEAs4nZEI5M)<br/>
